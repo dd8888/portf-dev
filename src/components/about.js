@@ -6,8 +6,21 @@ const About = () => {
   return (
     <div className="secion" id="about">
       <div className="container">
-        <div className="about-section">
-          <div className="content">
+        <br></br>
+        <br></br>
+
+        <span>
+          I also recently started writing about programming, you might like my{" "}
+          <a
+            style={{ fontWeight: "bold", color: "black" }}
+            href="https://blog.daviddiazh.dev"
+          >
+            posts
+          </a>
+        </span>
+
+        {/*<div className="about-section">
+           <div className="content">
             <Fade bottom cascade>
               <h1>About Me</h1>
             </Fade>
@@ -20,11 +33,11 @@ const About = () => {
               <br></br>
               {data.aboutParaThree}
             </p>
-          </div>
-          <div className="image-wrapper">
+          </div> */}
+        {/* <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>
-          </div>
-        </div>
+          </div> 
+        </div>*/}
       </div>
     </div>
   )

@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              Hi, I'm {data.name}{" "}
+              Hi, I'm David!{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
@@ -46,7 +46,7 @@ const Header = () => {
               }`}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              CONTACT ME
             </a>
           </Fade>
         </div>

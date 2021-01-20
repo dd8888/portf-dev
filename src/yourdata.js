@@ -11,27 +11,25 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.svg"
 
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
-
   //   Header Details ---------------------
   name: "chetan",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "The expert in anything",
     //Line 2 For Header
-    "products, brands,",
+    "was once",
     //Line 3 For Header
-    "and experience",
+    "a begginer.",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Currently I'm trying to learn as much as posible, and I'm enjoing it!",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "daviddiazh97@gmail.com",
 
   // End Header Details -----------------------
 
@@ -184,25 +182,13 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's create something great together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/dd8888" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/david-diaz-dev/",
     },
   ],
-
-  // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
