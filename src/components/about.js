@@ -9,7 +9,7 @@ const About = () => {
         <br></br>
         <br></br>
 
-        <span>
+        <span style={{ textAlign: "center" }}>
           I also recently started writing about programming, you might like my{" "}
           <a
             style={{ fontWeight: "bold", color: "black" }}
